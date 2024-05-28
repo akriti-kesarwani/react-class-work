@@ -1,0 +1,50 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.places
+{
+    padding: 60px 10%;
+    width: 100%;
+    background-color: rgb(143, 176, 184);
+    display: flex;
+    column-gap: 11%;
+    
+}
+.place{
+    width: 26%;
+    height: 500px;
+    background-color: blue;
+    border-radius: 10%;
+   
+}
+.place-img
+{
+    width: 100%;
+    height: 350px;
+    background-color: blueviolet;
+    overflow: hidden;
+}
+.place-content
+{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(96, 208, 221);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+    row-gap: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img{
+    width: 100%;
+}
+.btn{
+    padding: 10px 25px;
+    font-weight: bold;
+    color: rgb(209, 127, 127);
+    background-color: antiquewhite;
+}
