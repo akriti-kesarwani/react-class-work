@@ -1,0 +1,24 @@
+.product
+{
+    width: 400px;
+    background-color:rgb(221, 121, 121);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.pro-img
+{
+    height: 300px;
+    width:100%;
+    overflow: hidden;
+}
+.image
+{
+    
+    width: 100%;
+}
+.details {
+    padding: 20px;
+    background-color: rgb(217, 216, 235);
+}
